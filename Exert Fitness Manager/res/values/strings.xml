@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">Exert Fitness Manager</string>
+    <string name="title_test_detail">Test Detail</string>
+    <string name="title_test_list">Tests</string>
+
+</resources>

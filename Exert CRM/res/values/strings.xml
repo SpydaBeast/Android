@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">Exert CRM</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="admin_button">Administration</string>
+    <string name="acctman_button">Account Manager</string>
+    <string name="add_customer_button">Add Client/Customer</string>
+    <string name="create_workout_button">Create Workout</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_admin">Admin</string>
+    <string name="bussiness_detail_button">Business Details</string>
+    <string name="client_customer_button">Clients/Customers</string>
+    <string name="workout_programs_button">Workout Program Library</string>
+    <string name="title_activity_account_manager">AccountManager</string>
+    <string name="newaccount_button">Create New Account</string>
+    <string name="title_activity_main_acct_profile">MainAcctProfile</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="accountbalance">Account Balance</string>
+    <string name="account_balance_box">$xxx.xx</string>
+    <string name="plus_button">+</string>
+    <string name="minus_button">-</string>
+    <string name="email_invoice">Email Invoice</string>
+    <string name="email_workout">Email Workout</string>
+    <string name="recentworkouts">Recent Workouts</string>
+
+</resources>

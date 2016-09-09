@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Concert tickets</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string-array name="Group">
+        <item >Dragon Fly</item>
+        <item >Playa Fly</item>
+        <item >Killa Cali</item>
+    </string-array>
+
+</resources>
