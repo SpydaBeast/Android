@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HotTunz</string>
+    <string name="app_album_dubstep">Dubstep Collection</string>
+    <string name="app_artist_justin">Justin Hartinger</string>
+    <string name="app_artist_carmada">Carmada</string>
+    <string name="app_artist_cubestar">Cubestar</string>
+    <string name="app_artist_protohype">Protohype</string>
+    <string name="app_artist_maksim">Maksim</string>
+    <string name="app_song_daydream">Day Dream</string>
+    <string name="app_song_odetogloom">Ode to Gloom</string>
+    <string name="app_song_maybe">Maybe</string>
+    <string name="app_song_recon">Recon</string>
+    <string name="app_song_cometoclub">Come To Club</string>
+    <string name="app_play">Play</string>
+    <string name="app_stop">Stop</string>
+    <string name="app_about">Bio</string>
+    <string name="app_pause">Pause</string>
+    <string name="app_home">Home Menu</string>
+    <string name="app_ablum">Music Collections</string>
+    <string name="app_blog">Blog Post</string>
+    <string name="app_video">Videos</string>
+    <string name="app_imagegallery"><![CDATA[Images & Artwork]]></string>
+</resources>

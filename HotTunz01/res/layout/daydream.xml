@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:weightSum="1">
+
+    <GridLayout
+            android:layout_width="395dp"
+            android:layout_height="match_parent">
+        <ImageView
+                android:layout_width="195dp"
+                android:layout_height="195dp"
+                android:id="@+id/imageView" android:layout_row="0" android:layout_column="0"
+                android:background="@drawable/daydreamartwork"/>
+        <TextView
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/app_artist_maksim"
+                android:id="@+id/textView" android:layout_row="1" android:layout_column="0"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/app_song_daydream"
+                android:id="@+id/textView2" android:layout_row="2" android:layout_column="0"/>
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:text="@string/app_play"
+                android:id="@+id/btnPlay" android:layout_row="2" android:layout_column="1"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/app_about"
+                android:id="@+id/textView3" android:layout_row="3" android:layout_column="0"/>
+    </GridLayout>
+</LinearLayout>
