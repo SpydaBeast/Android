@@ -19,6 +19,7 @@ public class GPS_Service extends Service {
 
     private LocationListener listener;
     private LocationManager locationManager;
+    private Location location;
 
     @Nullable
     @Override
@@ -41,16 +42,11 @@ public class GPS_Service extends Service {
                 i.putExtra("speed",location.getSpeed()
                 );
                 sendBroadcast(i);
-
-                //recently add line to remove coordinates
-                i.removeExtra("coordinates");
             }
             @Override
             public void onStatusChanged(String s, int i, Bundle bundle) {
-
                 //noinspection MissingPermission
             }
-
             @Override
             public void onProviderEnabled(String s) {
 
@@ -65,10 +61,10 @@ public class GPS_Service extends Service {
             }
         };
         locationManager = (LocationManager) getApplicationContext().getSystemService(Context.LOCATION_SERVICE);
-
         //noinspection MissingPermission
         locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,1000,0,listener);
     }
+
     @Override
     public void onDestroy() {
         super.onDestroy();

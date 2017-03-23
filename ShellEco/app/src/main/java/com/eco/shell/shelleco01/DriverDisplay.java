@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
+import android.location.Location;
 import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
@@ -25,6 +26,7 @@ public class DriverDisplay extends AppCompatActivity {
     private Button btnStart, btnStop;
     private TextView navDisplay, speedData;
     private BroadcastReceiver broadcastReceiver;
+    private double lat, lng;
 
     @Override
     protected void onResume() {
@@ -34,9 +36,9 @@ public class DriverDisplay extends AppCompatActivity {
                 @Override
                 public void onReceive(Context context, Intent intent) {
 
-                        navDisplay.append("" + intent.getExtras().get("coordinates"));
-                        //speedData.append("" + intent.getExtras().get("speed"));
-                        //navDisplay.getEditableText().clear();
+                   navDisplay.append("" + intent.getExtras().get("coordinates"));
+                   speedData.append("" + intent.getExtras().get("speed"));
+
 
                 }
 
